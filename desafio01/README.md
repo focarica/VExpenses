@@ -198,7 +198,7 @@ resource "aws_instance" "debian_ec2" {
 
 Aqui podemos dizer que é onde o recurso "principal" esta sendo criado. Uma instancia da aws é criada e passado todos os dados que criamos acima para o funcionamento dessa instancia.
 
-1. **`ami`**: Especifica a AMI que foi escolhida para a máquina, permitindo que a AWS saiba qual imagem utilizar.
+1. **`ami`**: Especifica a AMI que foi escolhida para a máquina, permitindo que a AWS saiba qual imagem utilizar. Associamos essa variavel ao resultado da busca feita no bloco acima.
 
 2. **`instance_type`**: Define o tipo de máquina que será usada. Existem diversos valores que representam o poder de processamento da instância. Neste caso, foi utilizado `t2.micro`.
 
@@ -228,5 +228,3 @@ output "ec2_public_ip" {
   value       = aws_instance.debian_ec2.public_ip
 }
 ```
-
-## Modificação e Melhoria do Código Terraform
