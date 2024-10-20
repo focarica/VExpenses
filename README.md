@@ -1,7 +1,8 @@
 # Resolução Desafio Vexpenses
 
-[Analise Tecnica](https://github.com/focarica/VExpenses/tree/main/desafio%2001)
-[Modificação e Melhoria](https://github.com/focarica/VExpenses/tree/main/desafio%2002)
+Arquivos do desafio de [Analise Tecnica](https://github.com/focarica/VExpenses/tree/main/desafio%2001)
+
+Arquivos do desafio de [Modificação e Melhoria](https://github.com/focarica/VExpenses/tree/main/desafio%2002)
 
 ## Como executar o arquivo modificado.
 
