@@ -72,4 +72,4 @@ Dentro de `aws_instance` tambem houveram mudanças.
 
 Primeiramente na mudança de `security_groups = [aws_security_group.main_sg.name]` para `vpc_security_group_ids = [aws_security_group.main_sg.id]` pois como a variavel diz, precisa ser os ids do grupo de segurança e não o nome.
 
-Mudança no `user_data` para aceitar o script [user_data.sh](), onde é feita a instalação e iniciação basica do servidor nginx.
+Mudança no `user_data` para aceitar o script [user_data.sh](https://github.com/focarica/VExpenses/blob/main/desafio%2002/user_data.sh), onde é feita a instalação e iniciação basica do servidor nginx.
